@@ -27,7 +27,7 @@ public class Main {
                 ans+=cube.getArea();
             }
         }
-        writer.write(String.valueOf(ans));
+        writer.write("Total area of all shapes: "+String.valueOf(ans));
         writer.close();
     }
 }
